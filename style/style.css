@@ -202,7 +202,7 @@ html {
 }
 .discountActive {
   top: 500px;
-  right: -7px;
+  right: -2px;
   position: fixed;
   border-radius: 5px;
   display: flex;
