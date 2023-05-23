@@ -5,7 +5,7 @@ const arrow = document.querySelector(".btnArrow");
 const conditionsTxt = document.querySelector(".conditionsTxt0");
 const conditionsTxt1 = document.querySelector(".conditionsTxt1");
 const conditionsTxt2 = document.querySelector(".conditionsTxt2");
-const conditionsTxt3 = document.querySelector(".conditionsTxt3");
+const discount = document.querySelector(".discount");
 
 const menuToggel = () => {
   menu.classList.toggle("displayNone");
@@ -25,14 +25,14 @@ conditionsTxt.addEventListener("click", () => {
 conditionsTxt1.addEventListener("click", () => {
   conditionsTxt1.style.height = "auto";
   conditionsTxt1.textContent =
-    "мы покупаем ответы у самых известных каналов даже если это обойдется дороже, но гарантируетто что ответы будут максимально правильные";
+    "мы покупаем ответы у самых известных каналов даже если это обойдется дороже, но гарантирует что ответы будут максимально правильные";
 });
 conditionsTxt2.addEventListener("click", () => {
   conditionsTxt2.style.height = "auto";
   conditionsTxt2.textContent =
     "мы гарантируем что сразу будем пересылать вам все ответы с других групп, а так же будем держать связь с вами до окончания последних экзаменов";
 });
-conditionsTxt3.addEventListener("click", () => {
-  conditionsTxt3.style.height = "auto";
-  conditionsTxt3.textContent = "т.к мы по сути говоря перекупщики то 100% точность ответов гарантирует настоящий продавец";
+
+discount.addEventListener("click", () => {
+  discount.classList.toggle("discountActive");
 });

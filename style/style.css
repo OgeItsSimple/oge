@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 html {
   width: 100%;
@@ -22,7 +23,7 @@ html {
   display: flex;
   justify-content: space-between;
 }
-.header > img {
+.header a img {
   width: 100px;
   margin-top: 3px;
 }
@@ -182,6 +183,44 @@ html {
   text-align: center;
   color: #b8b8b8;
 }
+.discount {
+  top: 500px;
+  right: -187px;
+  position: fixed;
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #000000;
+  width: 200px;
+  cursor: pointer;
+  transition: 1s;
+}
+.discountActive {
+  top: 500px;
+  right: -7px;
+  position: fixed;
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #000000;
+  width: 200px;
+  transition: 1s;
+}
+.discountImg {
+  width: 10px;
+}
+.discountTxt {
+  margin-left: 5px;
+  font-size: 10px;
+  color: #ffffff;
+}
+.discountTxt1 {
+  margin-left: 3px;
+  font-size: 14px;
+  color: #ffffff;
+}
 .why {
   margin-top: 54px;
   display: flex;
@@ -272,7 +311,7 @@ html {
   .header {
     width: 600px;
   }
-  .header > img {
+  .header a img {
     width: 200px;
     margin-top: 6px;
   }
@@ -376,5 +415,19 @@ html {
   }
   .footer img {
     width: 200px;
+  }
+  .discountImg {
+    width: 20px;
+  }
+  .discountTxt {
+    margin-left: 5px;
+    width: 90px;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .discountTxt1 {
+    margin-left: 3px;
+    font-size: 17px;
+    color: #ffffff;
   }
 }
