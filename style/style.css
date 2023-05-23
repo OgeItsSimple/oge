@@ -185,7 +185,7 @@ html {
 }
 .discount {
   top: 500px;
-  right: -187px;
+  right: -182px;
   position: fixed;
   border-radius: 5px;
   display: flex;
@@ -195,6 +195,10 @@ html {
   width: 200px;
   cursor: pointer;
   transition: 1s;
+}
+.discountArray {
+  transform: rotate(180deg);
+  color: #ffffff;
 }
 .discountActive {
   top: 500px;
@@ -212,7 +216,7 @@ html {
   width: 10px;
 }
 .discountTxt {
-  margin-left: 5px;
+  margin-left: 15px;
   font-size: 10px;
   color: #ffffff;
 }
