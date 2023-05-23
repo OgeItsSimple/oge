@@ -1,0 +1,377 @@
+* {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: 400;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+html {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.header > img {
+  width: 100px;
+  margin-top: 3px;
+}
+.header > div {
+  margin-top: 7px;
+}
+.buy {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 6px;
+  text-align: center;
+  margin-right: 10px;
+}
+.btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 80px;
+  height: 20px;
+  background: #d9d9d9;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 5px;
+  text-align: center;
+  padding-left: 6px;
+}
+.btnImg {
+  width: 24px;
+  padding-right: 5px;
+}
+.btnArrow {
+  width: 20px;
+  transform: rotate(180deg);
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  top: 40px;
+  position: absolute;
+  width: 84px;
+  height: 125px;
+  background: #d9d9d9;
+  z-index: 2;
+}
+.menuTxt {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #000000;
+}
+.menuBtnAndMenuList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.displayNone {
+  display: none;
+}
+.rotate {
+  transform: rotate(360deg);
+}
+.menuList > a {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.035em;
+}
+.howGetAnswer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.howGetAnswer > h2 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 11px;
+  text-align: center;
+}
+.howGetAnswerTxtPosition {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 21px;
+}
+.howGetAnswerTxt {
+  background-color: #d9d9d9;
+  height: auto;
+  width: 235px;
+  border-radius: 5px;
+}
+.howGetAnswerTxt > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.howGetAnswerTxt1 {
+  background-color: #d9d9d9;
+  height: auto;
+  width: 235px;
+  border-radius: 5px;
+}
+.cost {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cost > h2 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: -0.035em;
+}
+.costUpNumbers {
+  margin-top: 54px;
+  display: flex;
+}
+.costUpNumbers > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #df6464;
+}
+.costUpNumbers :last-child {
+  margin-top: 4px;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #df6464;
+}
+.costBottomNumbers {
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 5px;
+  text-align: center;
+  color: #b8b8b8;
+}
+.why {
+  margin-top: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.why > h2 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: -0.035em;
+}
+.why > p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}
+.conditions {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conditions > h2 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+}
+.conditions > p {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}
+.conditionseTxt > p {
+  cursor: pointer;
+  width: 305px;
+  margin-top: 25px;
+  background: #d9d9d9;
+  border-radius: 6px;
+  padding: 4px 7px 4px 7px;
+  height: auto;
+}
+.conditionseTxt0 > p {
+  width: 305px;
+  margin-top: 25px;
+  background: #d9d9d9;
+  border-radius: 6px;
+  padding: 4px 7px 4px 7px;
+  height: auto;
+}
+.footer {
+  margin-top: 73px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLeft a {
+  display: flex;
+  cursor: pointer;
+}
+.footerLeft a p {
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  color: #000000;
+}
+.footerLeft a img {
+  margin-left: 10px;
+  width: 20px;
+}
+.footer img {
+  width: 100px;
+}
+.darkMenu {
+  width: 200%;
+  height: 100%;
+  position: fixed;
+}
+
+@media screen and (min-width: 755px) {
+  .header {
+    width: 600px;
+  }
+  .header > img {
+    width: 200px;
+    margin-top: 6px;
+  }
+  .buy {
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  .btn {
+    width: 100px;
+    height: 25px;
+    padding-left: 14px;
+  }
+  .menuList {
+    gap: 15px;
+    top: 70px;
+    width: 100px;
+    height: 155px;
+  }
+  .menuTxt {
+    font-weight: 600;
+    font-size: 21px;
+  }
+  .howGetAnswerTxtPosition {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 35px;
+  }
+  .howGetAnswer > h2 {
+    margin-top: 70px;
+    font-size: 28px;
+  }
+  .howGetAnswerTxt {
+    height: auto;
+    width: 350px;
+    border-radius: 15px;
+  }
+  .howGetAnswerTxt > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  }
+  .cost {
+    margin-top: 70px;
+  }
+  .cost > h2 {
+    font-size: 28px;
+  }
+  .costUpNumbers {
+    margin-top: 54px;
+    display: flex;
+  }
+  .costUpNumbers > p {
+    font-size: 25px;
+  }
+  .costUpNumbers :last-child {
+    font-size: 16px;
+  }
+  .costBottomNumbers {
+    font-size: 13px;
+  }
+  .why {
+    gap: 35px;
+    margin-top: 100px;
+  }
+  .why > h2 {
+    font-size: 28px;
+  }
+  .why > p {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .conditions {
+    margin-top: 76px;
+  }
+  .conditions > h2 {
+    font-size: 28px;
+  }
+  .conditions > p {
+    margin-top: 13px;
+    font-size: 17px;
+  }
+  .conditionseTxt > p {
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .conditionseTxt0 > p {
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .footer {
+    width: 600px;
+  }
+  .footerLeft a p {
+    font-size: 21px;
+  }
+  .footerLeft a img {
+    width: 30px;
+  }
+  .footer img {
+    width: 200px;
+  }
+}
